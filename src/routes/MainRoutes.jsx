@@ -3,6 +3,8 @@ import { lazy } from 'react';
 // project imports
 import Loadable from 'components/Loadable';
 import DashboardLayout from 'layout/Dashboard';
+import FacultyList from '../pages/faculty/faculty-list';
+import StudentList from '../pages/student/student-list';
 
 // render- Dashboard
 const DashboardDefault = Loadable(lazy(() => import('pages/dashboard/default')));
@@ -47,8 +49,16 @@ const MainRoutes = {
       element: <Shadow />
     },
     {
-      path: 'sample-page',
+      path: 'sampale-page',
       element: <SamplePage />
+    },
+    {
+      path: 'faculty-list',
+      element: <FacultyList />
+    },
+    {
+      path: 'student-list',
+      element: <StudentList />
     }
   ]
 };

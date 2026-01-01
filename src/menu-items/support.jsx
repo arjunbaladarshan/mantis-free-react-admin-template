@@ -22,6 +22,20 @@ const support = {
       icon: icons.ChromeOutlined
     },
     {
+      id: 'faculty-list',
+      title: 'Faculty List',
+      type: 'item',
+      url: '/faculty-list',
+      icon: icons.QuestionOutlined
+    },
+    {
+      id: 'student-list',
+      title: 'Student List',
+      type: 'item',
+      url: '/student-list',
+      icon: icons.QuestionOutlined
+    },
+    {
       id: 'documentation',
       title: 'Documentation',
       type: 'item',
